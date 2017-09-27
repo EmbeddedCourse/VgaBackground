@@ -1,0 +1,39 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 0e0b3335a82345e9813785b40baf3933 --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L blk_mem_gen_v8_3_2 -L unisims_ver -L unimacro_ver -L secureip --snapshot Gpu_top_tb_behav xil_defaultlib.Gpu_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.ip_user_files/ipstatic/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2414]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.ip_user_files/ipstatic/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2415]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.vga_ref_pack
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture behavioral of entity xil_defaultlib.vga_controller_640_60 [vga_controller_640_60_default]
+Compiling architecture behavioral of entity xil_defaultlib.Address_counter_new [address_counter_new_default]
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_output_stage(...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_output_stage(...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2(C_FAMILY="art...
+Compiling module xil_defaultlib.bram_blk_mem_gen_0_0
+Compiling architecture structure of entity xil_defaultlib.bram [bram_default]
+Compiling architecture structure of entity xil_defaultlib.bram_wrapper [bram_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.bram_top [bram_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_ref [vga_ref_default]
+Compiling architecture bench of entity xil_defaultlib.gpu_top_tb
+Built simulation snapshot Gpu_top_tb_behav

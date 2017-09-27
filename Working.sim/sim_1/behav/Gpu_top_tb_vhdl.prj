@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xpm  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_VCOMP.vhd"
+vhdl xil_defaultlib  "../../../project_1.ip_user_files/bd/bram/hdl/bram.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/Address_counter_new.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/hdl/bram_wrapper.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/bram_top.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/vhdl/vga_controller_640_60.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/vhdl/vga_ref_pack.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/vhdl/vga_ref.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/tb2.vhd"
+
+# Do not sort compile order
+nosort

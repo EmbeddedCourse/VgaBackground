@@ -1,0 +1,16 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.ip_user_files/bd/bram/hdl/bram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bram
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/new/Address_counter_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Address_counter_new
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/hdl/bram_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bram_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/new/bram_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bram_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/vhdl/vga_controller_640_60.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_controller_640_60
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/vhdl/vga_ref_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/vhdl/vga_ref.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_ref
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sim_1/new/tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Gpu_top_tb
