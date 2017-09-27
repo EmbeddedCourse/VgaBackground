@@ -11,33 +11,34 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.cache/wt [current_project]
-set_property parent.project_path C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.cache/wt [current_project]
+set_property parent.project_path C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:nexys4:part0:1.1 [current_project]
 add_files //puma.student.lth.se/mi3105is-s/Downloads/BG_Street.coe
-add_files -quiet c:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
-set_property used_in_implementation false [get_files c:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp]
-add_files C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/bd/bram/bram.bd
-set_property used_in_implementation false [get_files -all c:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/bd/bram/ip/bram_blk_mem_gen_0_0/bram_blk_mem_gen_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/bd/bram/bram_ooc.xdc]
-set_property is_locked true [get_files C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/bd/bram/bram.bd]
+add_files //puma.student.lth.se/mi3105is-s/Downloads/CurvyStreet.coe
+add_files -quiet c:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
+set_property used_in_implementation false [get_files c:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp]
+add_files C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/bd/bram/bram.bd
+set_property used_in_implementation false [get_files -all c:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/bd/bram/ip/bram_blk_mem_gen_0_0/bram_blk_mem_gen_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/bd/bram/bram_ooc.xdc]
+set_property is_locked true [get_files C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/bd/bram/bram.bd]
 
 read_vhdl -library xil_defaultlib {
-  C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/new/Address_counter_new.vhd
-  C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/hdl/bram_wrapper.vhd
-  C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/new/bram_top.vhd
-  C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/vhdl/vga_controller_640_60.vhd
-  C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/vhdl/vga_ref_pack.vhd
-  C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/sources_1/imports/vhdl/vga_ref.vhd
+  C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/new/Address_counter_new.vhd
+  C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/imports/hdl/bram_wrapper.vhd
+  C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/new/bram_top.vhd
+  C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/imports/vhdl/vga_controller_640_60.vhd
+  C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/imports/vhdl/vga_ref_pack.vhd
+  C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/sources_1/imports/vhdl/vga_ref.vhd
 }
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/constrs_1/new/vga_constraints.xdc
-set_property used_in_implementation false [get_files C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.srcs/constrs_1/new/vga_constraints.xdc]
+read_xdc C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/constrs_1/new/vga_constraints.xdc
+set_property used_in_implementation false [get_files C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.srcs/constrs_1/new/vga_constraints.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

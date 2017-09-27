@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1506509863">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1506524133">
   <File Type="OPT-DCP" Name="vga_ref_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="vga_ref_route_status.pb"/>
   <File Type="PA-TCL" Name="vga_ref.tcl"/>
@@ -132,6 +132,12 @@
       </FileInfo>
     </File>
     <File Path="//puma.student.lth.se/mi3105is-s/Downloads/BG_Street.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//puma.student.lth.se/mi3105is-s/Downloads/CurvyStreet.coe">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>

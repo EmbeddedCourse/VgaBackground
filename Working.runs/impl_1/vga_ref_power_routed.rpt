@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
-| Date             : Wed Sep 27 12:58:52 2017
+| Date             : Wed Sep 27 16:56:43 2017
 | Host             : fox-19 running 64-bit major release  (build 9200)
 | Command          : report_power -file vga_ref_power_routed.rpt -pb vga_ref_power_summary_routed.pb -rpx vga_ref_power_routed.rpx
 | Design           : vga_ref
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+--------+
-| Total On-Chip Power (W)  | 0.216  |
-| Dynamic (W)              | 0.117  |
+| Total On-Chip Power (W)  | 0.218  |
+| Dynamic (W)              | 0.119  |
 | Device Static (W)        | 0.099  |
 | Effective TJA (C/W)      | 4.6    |
 | Max Ambient (C)          | 84.0   |
@@ -50,18 +50,18 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        5 |       --- |             --- |
-| Slice Logic    |    <0.001 |      223 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       98 |     63400 |            0.15 |
+| Slice Logic    |    <0.001 |      232 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      101 |     63400 |            0.16 |
+|   CARRY4       |    <0.001 |        9 |     15850 |            0.06 |
 |   Register     |    <0.001 |       64 |    126800 |            0.05 |
-|   CARRY4       |    <0.001 |        5 |     15850 |            0.03 |
 |   F7/F8 Muxes  |    <0.001 |        3 |     63400 |           <0.01 |
-|   Others       |     0.000 |       41 |       --- |             --- |
-| Signals        |    <0.001 |      175 |       --- |             --- |
-| Block RAM      |    <0.001 |     28.5 |       135 |           21.11 |
+|   Others       |     0.000 |       42 |       --- |             --- |
+| Signals        |    <0.001 |      203 |       --- |             --- |
+| Block RAM      |     0.001 |     28.5 |       135 |           21.11 |
 | MMCM           |     0.116 |        1 |         6 |           16.67 |
 | I/O            |    <0.001 |       16 |       210 |            7.62 |
 | Static Power   |     0.099 |          |           |                 |
-| Total          |     0.216 |          |           |                 |
+| Total          |     0.218 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.017 |       0.001 |      0.016 |
+| Vccint    |       1.000 |     0.019 |       0.003 |      0.016 |
 | Vccaux    |       1.800 |     0.082 |       0.064 |      0.018 |
 | Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -142,18 +142,18 @@ Table of Contents
 +----------------------------------------------------+-----------+
 | Name                                               | Power (W) |
 +----------------------------------------------------+-----------+
-| vga_ref                                            |     0.117 |
+| vga_ref                                            |     0.119 |
 |   Inst_clock_gen                                   |     0.116 |
 |     inst                                           |     0.116 |
-|   bram_top_inst                                    |    <0.001 |
+|   bram_top_inst                                    |     0.002 |
 |     Inst_Address_counter                           |    <0.001 |
-|     Inst_bram_wrapper                              |    <0.001 |
-|       bram_i                                       |    <0.001 |
-|         blk_mem_gen_0                              |    <0.001 |
-|           U0                                       |    <0.001 |
-|             inst_blk_mem_gen                       |    <0.001 |
-|               gnbram.gnativebmg.native_blk_mem_gen |    <0.001 |
-|                 valid.cstr                         |    <0.001 |
+|     Inst_bram_wrapper                              |     0.002 |
+|       bram_i                                       |     0.002 |
+|         blk_mem_gen_0                              |     0.002 |
+|           U0                                       |     0.002 |
+|             inst_blk_mem_gen                       |     0.002 |
+|               gnbram.gnativebmg.native_blk_mem_gen |     0.002 |
+|                 valid.cstr                         |     0.002 |
 |                   bindec_a.bindec_inst_a           |    <0.001 |
 |                   has_mux_a.A                      |    <0.001 |
 |                   ramloop[0].ram.r                 |    <0.001 |

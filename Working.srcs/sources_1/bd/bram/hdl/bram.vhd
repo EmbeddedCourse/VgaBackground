@@ -1,7 +1,7 @@
 --Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
---Date        : Wed Sep 27 11:08:19 2017
+--Date        : Wed Sep 27 14:08:18 2017
 --Host        : fox-19 running 64-bit major release  (build 9200)
 --Command     : generate_target bram.bd
 --Design      : bram

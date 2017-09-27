@@ -2,9 +2,9 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="bram" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1506503328"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1506503328"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1506503328"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1506514128"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1506514128"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1506514128"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\bram_blk_mem_gen_0_0\bram_blk_mem_gen_0_0.xci" Type="IP">
         <Instance HierarchyPath="blk_mem_gen_0"/>

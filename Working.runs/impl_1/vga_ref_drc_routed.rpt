@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
-| Date         : Wed Sep 27 12:58:52 2017
+| Date         : Wed Sep 27 16:56:42 2017
 | Host         : fox-19 running 64-bit major release  (build 9200)
 | Command      : report_drc -file vga_ref_drc_routed.rpt -pb vga_ref_drc_routed.pb
 | Design       : vga_ref

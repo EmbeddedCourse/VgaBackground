@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.runs/impl_1'
+HD_PWD='C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

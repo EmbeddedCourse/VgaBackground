@@ -162,7 +162,7 @@ proc create_root_design { parentCell } {
   set blk_mem_gen_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.3 blk_mem_gen_0 ]
   set_property -dict [ list \
 CONFIG.Byte_Size {9} \
-CONFIG.Coe_File {//puma.student.lth.se/mi3105is-s/Downloads/BG_Street.coe} \
+CONFIG.Coe_File {//puma.student.lth.se/mi3105is-s/Downloads/CurvyStreet.coe} \
 CONFIG.Enable_32bit_Address {false} \
 CONFIG.Load_Init_File {true} \
 CONFIG.Read_Width_A {3} \

@@ -81,8 +81,8 @@ component clk_wiz_0 is
 
 begin 
 
-	rst_sys <= rst or (not clk_locked);		-- Release system reset when clock is stable
-	
+	--rst_sys <= rst or (not clk_locked);		-- Release system reset when clock is stable
+	rst_sys <= rst;
 	
 	-- Replicate the r g and b signals for nexys 4 board
 

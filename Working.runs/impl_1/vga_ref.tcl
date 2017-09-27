@@ -50,7 +50,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param xicom.use_bs_reader 1
   open_checkpoint vga_ref_routed.dcp
-  set_property webtalk.parent_dir C:/Users/mi3105is-s/Program/workingvga/project_1/project_1.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/mi3105is-s/Program/CrazyCarBackground/Working/Working.cache/wt [current_project]
   catch { write_mem_info -force vga_ref.mmi }
   write_bitstream -force vga_ref.bit 
   catch { write_sysdef -hwdef vga_ref.hwdef -bitfile vga_ref.bit -meminfo vga_ref.mmi -file vga_ref.sysdef }

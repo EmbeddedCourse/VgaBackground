@@ -217,6 +217,6 @@ begin
    -- enable video output when pixel is in visible area
    video_enable <= '1' when (hcounter < HLINES and vcounter < VLINES) else '0';
    start_bram <=  video_enable;
-   rst_bram <= '1' when (vcounter = VLINES) else '0';
+   rst_bram <= '1' when (vcounter = VLINES and hcounter = HLINES) else '0';
 
 end Behavioral;
